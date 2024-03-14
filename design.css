@@ -1,0 +1,37 @@
+ul {
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(4, 50px);
+    grid-template-rows: 50px;
+    grid-gap: 20px;
+    padding: 20px;
+    list-style: none;
+}
+ul li {
+    border: none;
+    opacity: 0.4;
+    transition: 0.3s;
+}
+ul li:active,
+li:hover {
+    opacity: 1;
+}
+ul li:first-child {
+    background-color: red;
+}
+ul li:nth-child(2) {
+    background-color: green;
+}
+ul li:nth-child(3) {
+    background-color: blue;
+}
+ul li:nth-child(4) {
+    background-color: black;
+}
+
+.experiment {
+    background-color: #eee;
+    width: 300px;
+    height: 300px;
+    margin: auto;
+}
